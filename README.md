@@ -34,7 +34,7 @@ sudo apt update && sudo apt install ffmpeg
 #### 1. Clone & Environment Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/python-tts-system.git
+git clone https://github.com/CliffMathebula/python-tts-system
 cd python-tts-system
 
 # Create a Python 3.11 virtual environment
