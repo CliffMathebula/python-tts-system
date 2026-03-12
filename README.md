@@ -1,8 +1,4 @@
-For a professional portfolio project, your **README.md** serves as the "shop window" for your skills. Since this project involves specific AI dependencies, being clear about the environment setup is crucial so other developers (or employers) can run it without the errors you just navigated.
 
-Here is a structured template for your `README.md` focusing on those critical prerequisites.
-
----
 
 ## 🚀 Neural TTS & Voice Cloning API
 
