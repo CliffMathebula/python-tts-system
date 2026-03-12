@@ -1,0 +1,19 @@
+# Web Server & Framework
+fastapi
+uvicorn
+python-multipart
+
+# TTS Engines
+edge-tts
+TTS
+
+# Machine Learning & Utils
+# Note: torch and torchaudio are usually installed separately via --index-url for CUDA support
+# but including them here ensures they are present for CPU-only environments.
+torch
+torchaudio
+numpy<2.0.0
+uuid
+
+# File & System
+aiofiles
