@@ -1,0 +1,16 @@
+# Virtual Environments
+venv/
+venv311/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Audio Files (Temporary/Testing)
+temp_audio/
+*.wav
+*.mp3
+
+# Environment/Secrets
+.env
