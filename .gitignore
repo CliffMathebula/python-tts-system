@@ -7,6 +7,8 @@ venv311/
 __pycache__/
 *.py[cod]
 
+voice_gallery/
+
 # Audio Files (Temporary/Testing)
 temp_audio/
 *.wav

@@ -4,16 +4,19 @@ uvicorn
 python-multipart
 
 # TTS Engines
+# [codec] ensures Torch 2.9+ audio support is installed
+coqui-tts[codec]
 edge-tts
-TTS
 
 # Machine Learning & Utils
-# Note: torch and torchaudio are usually installed separately via --index-url for CUDA support
-# but including them here ensures they are present for CPU-only environments.
 torch
 torchaudio
-numpy<2.0.0
-uuid
+transformers>=5.0.0
+numpy>=2.0.0
+
+# Video Engine
+moviepy==1.0.3
+proglog
 
 # File & System
 aiofiles
