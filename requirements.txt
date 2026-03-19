@@ -1,22 +1,12 @@
-# Web Server & Framework
 fastapi
 uvicorn
 python-multipart
-
-# TTS Engines
-# [codec] ensures Torch 2.9+ audio support is installed
 coqui-tts[codec]
 edge-tts
-
-# Machine Learning & Utils
 torch
 torchaudio
 transformers>=5.0.0
 numpy>=2.0.0
-
-# Video Engine
 moviepy==1.0.3
 proglog
-
-# File & System
 aiofiles
